@@ -44,12 +44,12 @@ After a long day of travel, we walked back to the hotel and checked in for some 
  - Listened to *On the n-attack Roman Dominating Number of a Graph and the Impact of Infinite and Finite Resources* (Garrison Koch - Moravian)
  - Listened to *An Investigation of Muscle Thumb-tip Movement Patterns: Application to Restoring Lateral Pinch Grasp Following Tetraplegia* (Cole Smith - Swarthmore!)
    - Went to the Engineering Section to support a fellow Swattie! His talk was great as well.
- - 
+ - Listened to *Experimental and Computational Analyses of Drop Motion in Straight Microchannels* (Ashish Srivastava - Colorado-Boulder)
 
 ### Session H (2:15 PM - 3:15 PM), Schneider Hall 105 & 225
  - Listened to *The Impact of Vector Fields and Topographic Maps in Life* (Omar Rivera - San Jacinto CC)
  - Listened to *Modeling Allee Effect in an Aggregated Eco-epidemiological Model* (Dylan Lee & Zach Overton - Samford)
- - Listened to *Role of Fear in an Eco-epidemiological Model with Species Aggregation (Kendall Bearden and Sarah Westmoreland - Samford)
+ - Listened to *Role of Fear in an Eco-epidemiological Model with Species Aggregation* (Kendall Bearden and Sarah Westmoreland - Samford)
 
 ### Wrapup 
 

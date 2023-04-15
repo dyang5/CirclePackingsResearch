@@ -26,3 +26,12 @@ Hosted at University of Wisconsin-Eau Claire, April 13-15, 2023.
 ### Wrapup 
 
 After a long day of travel, we walked back to the hotel and checked in for some rest. We'll be presenting our poster tomorrow!
+
+## Day 2: April 14th
+
+### Logistics
+ - Left the hotel at 8:30 AM on a shuttle to the conference
+
+### Our Poster Session (9:45 AM - 10:45 AM) 
+  - After we set up our poster, it felt like we weren't going to get many people to come up. Just a few minutes later though, a few students came up to ask about our poster, and our explanations commenced. We ended up getting around 10 people, with the majority of them interested in the heavy math explanation, which was awesome!
+  - It was definitely also fun explaining to those interested who did not come from mathematical backgrounds as well; in general, we were happy that people seemed interested in our project!

@@ -54,3 +54,14 @@ After a long day of travel, we walked back to the hotel and checked in for some 
 ### Wrapup 
 
 I headed downtown on a shuttle to explore the nearby area and check out the river. I grabbed some dinner and walked back to campus before shuttling to the hotel.
+
+## Day 3: April 15th
+
+### Logistics and Summary
+ - Final day of conference! We checked out the hotel at 9:30 AM before heading to the conference. Since there weren't many events today, we wandered around the final poster session.
+ - Lunch soon followed, and our conference experience was coming to a close.
+ - After some Uber logistics (the Uber straight to the airport was nearly $200) led to us taking an Uber to a hotel before taking another college's shuttle to the airport
+ - Overall, it was a great experience to go to NCUR and experience a large undergraduate conference. I definitely would have preferred doing an Oral presentation as opposed to a poster, but you live and you learn! 
+
+### Acknowledgements
+ - Thank you to Swarthmore College (Math Department & Academic Funding) for partially funding our conference experience and to Philip for traveling alongside and presenting with me.

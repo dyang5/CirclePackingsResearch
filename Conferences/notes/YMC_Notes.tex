@@ -1,0 +1,71 @@
+\documentclass[12pt]{amsart}
+\usepackage[symbol]{footmisc}
+\usepackage{float}
+
+\usepackage{style_template}
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+% \newtheorem{theorem}{Theorem}
+% \newtheorem{definition}{Definition}
+
+\title{Young Mathematicians Conference Notes}
+\author{David Yang}
+\date{August 15th - 17th, 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Day 1: August 15th}
+
+\vspace{0.25cm}
+
+\subsection{The Failed Zero Forcing Number of a Graph}
+
+\textit{}
+\vspace{0.25cm}
+
+\textit{Presented by Chirag Kaudan and Rachel Taylor.}
+
+\begin{definition}[Forcing Rule]
+Let each vertex of a graph represent a person. Each person either knows or does not know a secret -- if they do, their corresponding vertex is colored. \\
+
+If all a person's friends except one friend knows the secret, then the secret is told to that friend as well.\end{definition}
+
+\begin{definition}[Zero Forcing Number]
+The zero forcing number of $G$, $Z(G)$, is the smallest cardinality of any set $S$ of vertices on which repeated applications of the forcing rule
+results in all vertices joining $S$.
+\end{definition}
+
+\begin{definition}[Failed Zero Forcing Number]
+The failed zero forcing number of $G$, $F(G)$, is the maximum
+cardinality of any set of vertices on which repeated applications of the forcing rule will never result in all vertices joining the set.\end{definition}
+
+\begin{result}
+Using the theory of \textit{modules} (a set of vertices such that every vertex in the module has the same neighorhood exclusing vertices in the module) in zero forcing graphs and a computer algorithm, they were able to show that
+there are $15$ graphs with $F(G) = 2$ and $68$ graphs with $F(G) = 3$. 
+\end{result}
+
+\subsection{Properties of Families of Graphs with Forbidden Induced Subgraphs}
+
+\textit{}
+\vspace{0.25cm}
+
+\textit{Presented by Christian Pippin.}
+
+\begin{definition}[Induced Subgraphs]
+$H$ is an \textbf{induced subgraph} of $G$ if the vertex set of $H$ is a subset of the vertex set of $G$ and for all $(u, v) \in E^{H}$, $(u, v) \in E^G.$
+\end{definition}
+
+There is a relation between indivisibility and the lex product. \\
+
+\begin{lemma}
+If a family of graphs is closed under the lex product, the class is indivisible.
+\end{lemma}
+
+\begin{theorem}
+For all $n$, $\mathrm{Forb}(P_n)$ is indivisible. \\
+
+$\mathrm{Forb}(C_n)$ is indivisible for all $n \geq 5.$
+\end{theorem}
+\end{document}

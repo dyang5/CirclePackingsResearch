@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2023.1.12)  19 AUG 2023 16:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2023.1.12)  20 AUG 2023 11:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -736,49 +736,89 @@ Package mdframed Info: mdframed works in twoside mode on input line 45.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 45.
-Package hyperref Info: bookmark level for unknown result defaults to 0 on input line 45.
-Package mdframed Info: mdframed works in twoside mode on input line 56.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 56.
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-
- []
-
+Package hyperref Info: bookmark level for unknown result* defaults to 0 on input line 45.
 [1{/opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-Package mdframed Info: mdframed works in twoside mode on input line 63.
+Package mdframed Info: mdframed works in twoside mode on input line 58.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 63.
-Package hyperref Info: bookmark level for unknown lemma defaults to 0 on input line 63.
-Package mdframed Info: mdframed works in twoside mode on input line 67.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 67.
-Package hyperref Info: bookmark level for unknown theorem defaults to 0 on input line 67.
+(mdframed)              on input line 58.
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-[2] (./YMC_Notes.aux)
+Package mdframed Info: mdframed works in twoside mode on input line 65.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 65.
+Package hyperref Info: bookmark level for unknown lemma* defaults to 0 on input line 65.
+Package mdframed Info: mdframed works in twoside mode on input line 69.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 69.
+Package hyperref Info: bookmark level for unknown theorem* defaults to 0 on input line 69.
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 83.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 83.
+Package mdframed Info: mdframed works in twoside mode on input line 89.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 89.
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+[2]
+Package mdframed Info: mdframed works in twoside mode on input line 100.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 100.
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 114.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 114.
+Package mdframed Info: mdframed works in twoside mode on input line 121.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 121.
+Package mdframed Info: mdframed works in twoside mode on input line 128.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 128.
+[3] (./YMC_Notes.aux)
 Package rerunfilecheck Info: File `YMC_Notes.out' has not changed.
-(rerunfilecheck)             Checksum: E5A3FA1E98794B1F6EF18265646CDDE9;905.
+(rerunfilecheck)             Checksum: BB18FEC7D0F41FC8E309C585117400A7;1568.
  ) 
 Here is how much of TeX's memory you used:
- 23137 strings out of 478268
- 441626 string characters out of 5835366
- 718301 words of memory out of 5000000
- 40742 multiletter control sequences out of 15000+600000
+ 23183 strings out of 478268
+ 442590 string characters out of 5835366
+ 715060 words of memory out of 5000000
+ 40781 multiletter control sequences out of 15000+600000
  478440 words of font info for 67 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  135i,10n,140p,597b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on YMC_Notes.pdf (2 pages, 141340 bytes).
+</opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on YMC_Notes.pdf (3 pages, 177457 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 PDF objects out of 1000 (max. 8388607)
+ 101 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

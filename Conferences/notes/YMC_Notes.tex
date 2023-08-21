@@ -41,10 +41,12 @@ results in all vertices joining $S$.
 The failed zero forcing number of $G$, $F(G)$, is the maximum
 cardinality of any set of vertices on which repeated applications of the forcing rule will never result in all vertices joining the set.\end{definition}
 
-\begin{result}
+\begin{result*}
 Using the theory of \textit{modules} (a set of vertices such that every vertex in the module has the same neighorhood exclusing vertices in the module) in zero forcing graphs and a computer algorithm, they were able to show that
 there are $15$ graphs with $F(G) = 2$ and $68$ graphs with $F(G) = 3$. 
-\end{result}
+\end{result*}
+
+\newpage 
 
 \subsection{Properties of Families of Graphs with Forbidden Induced Subgraphs}
 
@@ -59,13 +61,70 @@ $H$ is an \textbf{induced subgraph} of $G$ if the vertex set of $H$ is a subset 
 
 There is a relation between indivisibility and the lex product. \\
 
-\begin{lemma}
+\begin{lemma*}
 If a family of graphs is closed under the lex product, the class is indivisible.
-\end{lemma}
+\end{lemma*}
 
-\begin{theorem}
+\begin{theorem*}
 For all $n$, $\mathrm{Forb}(P_n)$ is indivisible. \\
 
 $\mathrm{Forb}(C_n)$ is indivisible for all $n \geq 5.$
-\end{theorem}
+\end{theorem*}
+
+\vspace{2.5cm}
+
+\subsection{Generalized Stick Fragmentation and Benford's Law}
+
+\textit{}
+\vspace{0.25cm}
+
+\textit{Presented by Xinyu Fang and Maxwell Sun.}
+
+\begin{theorem*}[Benford's Law]
+In base $B$, the probability of observing a value with first digit $d$ is \[ \log_B\left(\frac{d+1}{d}\right).\]
+
+If this property holds, a dataset is said to exhibit \textbf{weak Benford behavior}; if, moreover, the logarithms of the values modulo 1 are equidistributed, then the set exhibits \textbf{strong Benford behavior}. 
+\end{theorem*}
+
+\begin{definition}[Significand and Mentissa]
+The \textbf{significand} of $x$ base $B$ is $S_B(x) \in [1, B)$ such that $x = S_B(x) \cdot B^k$ for some $k$. \\
+
+The \textbf{mantissa} is the analogue but for fractional pieces.
+\end{definition}
+
+\vspace{0.5cm}
+
+To setup the problem, consider a stick breaking model where you begin with a stick of length $\ell$. At each step, the stick is broken into smaller segments and this process continues until some termination condition is reached. The problem the authors studied is known as a \textit{Discrete Breaking Problem with a Stopping Set}: if the stick length falls into the given stopping set, it is considered ``dead" and should not be broken further. \\
+
+\begin{result*}
+The authors give some results on when a given set of end lengths is Strong Benford (for which types of stopping sets). \\
+
+In particular, they conjecture that if you break each stick into $k$ parts and stop at $(k-1) \cdot \frac{n}{k}$ residue classes modulo $n$ where $k \mid n$, then the results are Strong Benford.
+\end{result*}
+
+\vspace{2.5cm}
+
+\subsection{Geometry of the Numerical and Berezin Range}
+
+\textit{}
+\vspace{0.25cm}
+
+\textit{Presented by Edwin Xie and Caroline Norman.}
+
+\begin{definition}[Numerical Range]
+The \textbf{numerical range} $f$ of a bounded linear operator $T$ on a complex Hilbert space $H$ is defined as
+\[ W(T) = \{\langle Tf, f \rangle : ||f|| = 1.\} \]
+
+Properties of the numerical range include unitary invariance, shift and scale, and that it satisfies the Topelitz-Hausdorff property.
+\end{definition}
+
+\begin{definition}[Berezin Range]
+On the Hardy-Hilbert space $H^2(\mathbb{D})$ of the open unit disk $\mathbb{D}$, the \textbf{Berezin range} is defined as 
+\[B(T) = \{ \langle T\hat{k}_p, \hat{k}_p \rangle : p \in \mathbb{D}\}\]
+where $\hat{k}_p$ is the normalized reproducing kernel.
+
+\end{definition}
+\begin{result*}
+The authors work with the Berezin Range on a Hardy Space and prove some results about the Berezin Range.
+\end{result*}
 \end{document}

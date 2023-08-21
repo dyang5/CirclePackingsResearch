@@ -1005,6 +1005,8 @@ INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/tex/latex/mdframe
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/tex/latex/thmtools/thm-patch.sty
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/tex/latex/mdframed/mdframed.sty
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/tex/latex/thmtools/thm-patch.sty
+INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/tex/latex/mdframed/mdframed.sty
+INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/tex/latex/thmtools/thm-patch.sty
 INPUT ./YMC_Notes.aux
 INPUT YMC_Notes.aux
 INPUT YMC_Notes.aux
@@ -1133,13 +1135,16 @@ INPUT ./YMC_Notes.out
 INPUT ./YMC_Notes.out
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb

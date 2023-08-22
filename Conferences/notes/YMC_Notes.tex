@@ -127,4 +127,142 @@ where $\hat{k}_p$ is the normalized reproducing kernel.
 \begin{result*}
 The authors work with the Berezin Range on a Hardy Space and prove some results about the Berezin Range.
 \end{result*}
+
+\vspace{2.5cm}
+
+\newpage
+
+\subsection{The VC Dimension of Semi-Algebraic Sets}
+
+\textit{}
+\vspace{0.25cm}
+
+\textit{Presented by Kayta Gheorghian.}
+
+\begin{definition}[VC Dimension]
+Let $X$ be a set and $F$ a family of subsets of $X$. Then for any subset
+$A \subseteq X$, we say that $F$ shatters $A$ if for each $A' \subseteq A$ there exists $F' \in F$ such that $F' \cap A = A'.$ \\
+
+The \textbf{Vapnik-Chervonenkis (VC) dimension} of $X$ with respect to $F$ is
+\[ \max_{A \subseteq F} |A| : F \text{ shatters } A.\]
+\end{definition}
+
+\begin{definition}[Heisenberg Group]
+The Heisenberg Group is defined as the following group of $3 \times 3$ upper triangular matrices: \[\mathcal{H}(\mathbb{Z}) = \left \{\begin{bmatrix} 1 & a & b \\ 0 & 1 & c \\ 0 & 0 & 1\end{bmatrix}, \, a, b, c \in \mathbb{Z} \right\}.\]
+\end{definition}
+
+\begin{result*}
+In attempting to find the VC Dimension of the Heisenberg group, they studied a related problem -- the VC Dimension of different quadrilaterals in $\mathbb{R}^2$.
+\end{result*}
+
+\newpage
+
+\subsection{The Collatz Conjecture over the Gaussian Integers}
+
+\textit{Plenary Lecture.}
+\vspace{0.25cm}
+
+\textit{Presented by Professor Alejandra Alvarado (Eastern Illinois University).\footnote{Her presentation was created after a 2017 REU project, so certain details may be older results.}}
+
+\begin{definition}[Collatz Conjecture]
+Define the function \[ f(n) = \begin{cases}\frac{n}{2} & \text{if n is even} \\ 3n + 1 & \text{if n is odd} \end{cases}.\]
+Form a sequence by repeatedly applying this function. \\
+
+\textbf{The Collatz Conjecture} states that the hailstone sequence/trajectory will eventually reach $1$, regardless of the starting positive integer.
+\end{definition}
+
+\vspace{0.25cm}
+
+A heuristic probabilistic argument by Crandall in 1978 gives an argument for non-divergence (each odd number is on average $\frac{3}{4}$ of the previous odd number), but the question of whether the sequence always reaches $1$ remains unsolved (though apparently the conjecture has been shown to hold up to $5 \times 2^{68}$ computationally). \\
+
+Extensions of the Collatz Conjecture may arise when the collatz function is generalized or the question is extended to other rings. For example, the speaker proposes extending the Collatz Conjecture to the Gaussian and Eisenstein Integers.
+
+\begin{definition}[Gaussian Integers]
+The \textbf{Gaussian Integers} are the set $\mathbb{Z}[i] : \{ a + bi \mid a, b \in \mathbb{Z} \}.$ \\
+    
+Useful facts include that if $p \equiv 3 \pmod 4$, then $p$ is a Gaussian Prime. If $p \equiv 1 \pmod 4$ where $p = (a+bi)(a-bi)$, then $a+bi$ is a Gaussian prime.
+\end{definition}
+
+\begin{definition}[Eisenstein Integers]
+The \textbf{Eisenstein Integers} are the set $\mathbb{Z}[\omega] : \{ a + b\omega \mid \omega^2 + \omega + 1 = 0 \}.$ \\
+\end{definition}
+
+\begin{result*}
+The speaker discusses the construction of a spiral ordering of Gaussian integers in the first quadrant, and discusses a Gaussian Collatz Mapping, as well as the trajectories of various Gaussian Integers under this mapping. \\
+
+Afterwards, she also discusses similar approaches/results for the Eisenstein Integers.
+\end{result*}
+
+\newpage
+
+\section{Day 2: August 16th}
+
+\subsection{Practical Uses of Complex Analysis}
+
+\textit{Plenary Lecture.}
+\vspace{0.25cm}
+
+\textit{Presented by Professor Loredana Lanzani of Syracuse University and University of Bologna.}
+
+\begin{definition}[Conformal Maps]
+\textbf{Conformal Maps} are maps $f: \mathbb{C} \rightarrow \mathbb{C}$ that
+\begin{itemize}
+    \item on a small scale, preserve the shape of objects (i.e. angles between intersecting curves are preserved) 
+    \item on a large scale, may greatly distort shapes
+\end{itemize}
+
+\end{definition}
+
+\vspace{0.25cm}
+Examples of conformal maps include translations, rotations about a point, dilation, inversion, the \textbf{Joukowski Map} $f(z) = z + \frac{1}{z}$, as well as complex powers $f(z) = z^\alpha, \, \alpha \in \mathbb{C}.$ \\
+
+Another example is the classic example of \textbf{stereographic projection} (which projects points on a spheroid directly to the plane). As a historical aside, the speaker talked about a painting by Ruben in 1613 depicting Ptomeley: \\
+
+\begin{center}
+\includegraphics[scale = 0.35]{note_imgs/ruben_ptolemy.png}
+\end{center}
+
+In particular, in the center of Ruben's universe the Earth or the Sun? It turns out that according to the size of the angles (the power of conformal maps is on full display), it is the Earth. \\ 
+
+Other applications of conformal maps include cartography, in the Droste Effect in art, aircraft-wing design, and in morphology. \\
+
+In \textbf{cartography}, the goal is to design a (flat) map of the world that sailors can use for exploration. 
+Consequently, the stereographic projection map discussed early has the effect of large scale area distortion (for example, Greenland and Africa are missized relative to each other). However, the stereographic projection does allow for a map with no cuts and gives good accuracy on a small scale. 
+On the other hand, a method known as Localized Stereographic Projection may work better. This projection is a type of polar stereographic projection used for navigation in polar regions -- the localization of this map is key, which correlates with the property of conformal maps. \\
+
+Conformal maps also show up in art. 
+
+\begin{definition}[Droste Effect]
+The \textbf{Droste Effect} is a repeating visual effect that occurs when an image contains a copy of that (same) image, which in turn contains the copy of that ... and so on and so forth.
+\end{definition}
+
+This effect is named after the following picture, of Droste cocoa powder, where you can see that the nurse is carrying a serving tray with a cup of hot chocolate and a box with the same image. 
+
+\begin{center}
+\includegraphics[scale = 0.75]{note_imgs/droste_effect.jpeg}
+\end{center}
+
+It turns out that Droste pictures can be obtained by applying the conformal map \[f(z) = z^\alpha \text{ with } \alpha = 1 - i \frac{1}{2\pi} \log(s_o) \] where $s_o$ represents the scaling factor of a Droste image (the larger the scaling factor, the harder to see each iteration -- in the above photo, the scaling factor is around $6.5$). \\
+
+Another famous painting that makes use of the Droste effect (scaling factor $\sim 256$) is M. C. Esher's \textit{Print Gallery} from 1956:
+
+\begin{center}
+\includegraphics[scale = 0.8]{note_imgs/escher_print_gallery.jpg}
+\end{center}
+
+You may notice that in the center of the image, there is a blank space. Mathematicians have tried to use the Droste effect and conformal maps to study/determine the art that could possibly fill this hole. The speaker specifically mentions \textit{Complexities of Art} by Kay Horak of Smith College as a resource to study (I could not find this online); 
+there are many others online that may be worth reading as well. \\
+
+In aircraft wing design, the goal is to design an airplane wing that produces force/life strong enough to keep it in the air. One solution is to apply a Joukowski map (a type of conformal map) to a circle -- this will get airfoil and will allow you to study the airflow surrounding it. \\
+
+D'Arcy Wentworth Thompson (1860-1948)'s ``On Growth and Form'' explored the extent to which relationships among different species of animals can be described as conformal transformations. Homologous pairs of animals must ``preserve a given number of landmark points'' (at least 7). However, this means that there cannot be a conformal mapping between 
+these pairs since conformal mappings can only guarantee at most 3 landmark points. Thus, \textbf{quasi-conformal mappings} are introduced. This allows for (controlled) angle deformation and allows for lots of homologous landmark points. \\
+
+The final example of conformal mappings was in the study of the time evolution of \textit{Monstera Delicosa} (Swiss cheese plant) and modeling its fenestration phenoma. \\
+
+\newpage
+
+
+
+
 \end{document}

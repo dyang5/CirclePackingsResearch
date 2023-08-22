@@ -45,9 +45,9 @@ After the plenary lectures, we went down to Scott Hall to watch the student lect
 
  Since I finished my food pretty quickly and there was an extra hour to spare before the next round of student presentations, I decided to walk around and explore campus. I first hit the nearest Starbucks to get some coffee before heading over to the Student Union to grab a picture with Brutus the Buckeye. I then walked back to the Math Tower/Scott Hall to hear the next round of talks:
 
- - (1:45 - 2:05 PM): Generalizations of the Erdos--Ginzburg--Ziv theorem via topology (JLD's talk)
- - (2:15 - 2:35 PM): On the Size and Complexity of Scrambles (a SMALL REU talk by KS and SD, two friends I met from the conference)
- - (2:45 - 3:05 PM): Finite Rank Sequences Over Arbitrary Finite Alphabets
+ - (1:45 - 2:05 PM): *Generalizations of the Erdos--Ginzburg--Ziv theorem via topology* (JLD's talk)
+ - (2:15 - 2:35 PM): *On the Size and Complexity of Scrambles* (a SMALL REU talk by KS and SD, two friends I met from the conference)
+ - (2:45 - 3:05 PM): *Finite Rank Sequences Over Arbitrary Finite Alphabets*
 
  At this point, I was feeling quite tired so I went to the Math Lounge to decompress before the next event, a grad school panel where a few professors answered grad school and application questions. Steven Miller, the SMALL REU head, was also a part of the panel and he had some great news -- he would be providing everyone with pizza for dinner. I was happy at first about this but also a bit sad since I wanted to explore Columbus and the dinner spots with a few other conference participants... after dinner, I played a game of chess with CP before deciding to return to the hotel and throw around a frisbee with KS, CP, and later TO and CY. At around 6:30, I returned back to the hotel to decompress, practice and finalize my presentation a few times, and called my parents and friends to close out the night.
 

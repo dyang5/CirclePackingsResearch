@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2023.1.12)  20 AUG 2023 11:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2023.1.12)  21 AUG 2023 23:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -802,23 +802,170 @@ Package mdframed Info: mdframed works in twoside mode on input line 128.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 128.
-[3] (./YMC_Notes.aux)
+[3]
+Package mdframed Info: mdframed works in twoside mode on input line 142.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 142.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 150.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 150.
+Package mdframed Info: mdframed works in twoside mode on input line 155.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 155.
+[4]
+Package mdframed Info: mdframed works in twoside mode on input line 167.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 167.
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
+
+ []
+
+
+Overfull \hbox (4.59721pt too wide) in paragraph at lines 176--177
+[]\OT1/cmr/m/n/12 A heuris-tic prob-a-bilis-tic ar-gu-ment by Cran-dall in 1978 gives an ar-gu-ment for non-divergence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 180.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 180.
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 186.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 186.
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 191.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 191.
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+[5]
+Overfull \hbox (2.24942pt too wide) in paragraph at lines 205--206
+[]\OT1/cmr/m/it/12 Presented by Pro-fes-sor Loredana Lan-zani of Syra-cuse Uni-ver-sity and Uni-ver-sity of Bologna. 
+ []
+
+Package mdframed Info: mdframed works in twoside mode on input line 207.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 207.
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+
+ []
+
+<note_imgs/ruben_ptolemy.png, id=103, 853.1875pt x 587.19376pt>
+File: note_imgs/ruben_ptolemy.png Graphic file (type png)
+<use note_imgs/ruben_ptolemy.png>
+Package pdftex.def Info: note_imgs/ruben_ptolemy.png  used on input line 222.
+(pdftex.def)             Requested size: 298.6201pt x 205.52089pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--232
+
+ []
+
+[6 <./note_imgs/ruben_ptolemy.png>]
+Package mdframed Info: mdframed works in twoside mode on input line 235.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 235.
+<note_imgs/droste_effect.jpeg, id=110, 194.7275pt x 259.97125pt>
+File: note_imgs/droste_effect.jpeg Graphic file (type jpg)
+<use note_imgs/droste_effect.jpeg>
+Package pdftex.def Info: note_imgs/droste_effect.jpeg  used on input line 242.
+(pdftex.def)             Requested size: 146.04524pt x 194.97795pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+<note_imgs/escher_print_gallery.jpg, id=111, 319.1925pt x 315.1775pt>
+File: note_imgs/escher_print_gallery.jpg Graphic file (type jpg)
+<use note_imgs/escher_print_gallery.jpg>
+Package pdftex.def Info: note_imgs/escher_print_gallery.jpg  used on input line 250.
+(pdftex.def)             Requested size: 255.35434pt x 252.14233pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./note_imgs/droste_effect.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 253--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+
+ []
+
+[8 <./note_imgs/escher_print_gallery.jpg>] (./YMC_Notes.aux)
 Package rerunfilecheck Info: File `YMC_Notes.out' has not changed.
-(rerunfilecheck)             Checksum: BB18FEC7D0F41FC8E309C585117400A7;1568.
+(rerunfilecheck)             Checksum: 9B45B1E5A7EBDA66DBDE772D1BEFF4AA;2638.
  ) 
 Here is how much of TeX's memory you used:
- 23183 strings out of 478268
- 442590 string characters out of 5835366
- 715060 words of memory out of 5000000
- 40781 multiletter control sequences out of 15000+600000
- 478440 words of font info for 67 fonts, out of 8000000 for 9000
+ 23269 strings out of 478268
+ 444496 string characters out of 5835366
+ 715666 words of memory out of 5000000
+ 40840 multiletter control sequences out of 15000+600000
+ 478777 words of font info for 68 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  135i,10n,140p,597b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on YMC_Notes.pdf (3 pages, 177457 bytes).
+{/opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></opt/homebrew/Cellar/texlive/20220321_4/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb>
+Output written on YMC_Notes.pdf (8 pages, 656062 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 100 words of extra memory for PDF output out of 10000 (max. 10000000)
 

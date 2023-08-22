@@ -3,6 +3,7 @@
 \usepackage{float}
 \usepackage{mathtools}
 \usepackage{style_template}
+\usepackage{hyperref}
 \renewcommand*{\thefootnote}{\fnsymbol{footnote}}
 
 % \newtheorem{theorem}{Theorem}
@@ -17,9 +18,19 @@
 
 \maketitle
 
+\setcounter{section}{-1}
+\section{Overview}
+
+These are my collection of notes from my experience at the Young Mathematicians Conference, held from August 15th to 17th, 2023 at Ohio State University. 
+I take any responsibility for typos/incorrect definitions -- I was only able to write down and follow part of each presentation. Feel free to contact each of the speakers for any questions and to look over the official YMC Abstracts (some of the notes here are from them), which you can find \href{https://ymc.osu.edu/sites/default/files/2023-08/ymc_2023-2.pdf}{here}. \\
+
+These notes serve as a catalogue for my academic conference experience -- feel free to read more about my personal (general) conference experience \href{https://github.com/dyang5/CirclePackingsResearch/blob/main/Conferences/writeups/YMC_Writeup.md}{here}!
+
+\vspace{2cm}
 \section{Day 1: August 15th}
 
 \vspace{0.25cm}
+
 
 \subsection{The Failed Zero Forcing Number of a Graph}
 
@@ -47,7 +58,7 @@ Using the theory of \textit{modules} (a set of vertices such that every vertex i
 there are $15$ graphs with $F(G) = 2$ and $68$ graphs with $F(G) = 3$. 
 \end{result*}
 
-\newpage 
+\vspace{2cm}
 
 \subsection{Properties of Families of Graphs with Forbidden Induced Subgraphs}
 
@@ -72,7 +83,7 @@ For all $n$, $\mathrm{Forb}(P_n)$ is indivisible. \\
 $\mathrm{Forb}(C_n)$ is indivisible for all $n \geq 5.$
 \end{theorem*}
 
-\vspace{2.5cm}
+\vspace{2cm}
 
 \subsection{Generalized Stick Fragmentation and Benford's Law}
 
@@ -103,7 +114,7 @@ The authors give some results on when a given set of end lengths is Strong Benfo
 In particular, they conjecture that if you break each stick into $k$ parts and stop at $(k-1) \cdot \frac{n}{k}$ residue classes modulo $n$ where $k \mid n$, then the results are Strong Benford.
 \end{result*}
 
-\vspace{2.5cm}
+\vspace{2cm}
 
 \subsection{Geometry of the Numerical and Berezin Range}
 
@@ -129,7 +140,7 @@ where $\hat{k}_p$ is the normalized reproducing kernel.
 The authors work with the Berezin Range on a Hardy Space and prove some results about the Berezin Range.
 \end{result*}
 
-\vspace{2.5cm}
+\vspace{2cm}
 
 \newpage
 
@@ -319,7 +330,7 @@ A set is \textbf{MSTD} (More Sum Than Differences Set) if $|A+A| > |A-A|.$
     The speaker works on generalized sumsets (of $s$ sums and $d$ differences), proving some results for these sumsets. A key component of their approach is Stein's Method, which they also explain.
 \end{result*}
 
-\vspace{2.5cm}
+\vspace{2cm}
 
 \subsection{Generalizations of the Erdos-Ginzburg-Ziv Theorem via Topology}
 
@@ -366,7 +377,7 @@ A \textbf{scramble} $S$ is a collection of connected subgraphs of $G$ (called eg
 To study these chip-firing games, the speakers study the scramble numbers of graphs, which help give lower bounds for gonality as per Harp et. al. (2022), which states that \[ \mathrm{Sc}(G) \leq \mathrm{gon}(G)\] for all graphs G.
 \end{result*}
 
-\vspace{2.5cm}
+\vspace{2cm}
 
 \subsection{Stiffness matrices and d-dimensional algebraic connectivity}
 
@@ -381,7 +392,7 @@ I was not able to take notes for this presentation -- see YMC abstract page for 
 
 \section{Day 3: August 17th}
 
-\subsection{Toplogy Meets Physics: Scissors Congruences and TQFT}
+\subsection{Topology Meets Physics: Scissors Congruences and TQFT}
 
 \textit{Plenary Lecture.}
 \vspace{0.25cm}
@@ -391,6 +402,114 @@ I was not able to take notes for this presentation -- see YMC abstract page for 
 The talk relates Topology (Manifolds/Scissor Congruences) with Physics (TQFT). \\
 
 \begin{definition}[Scissors Congruence]
-Two shapes are \textbf{scissors congruent} if you can chop/cut one shape into pieces and rearrange those pieces along their boundaries to form the other shape.
+Two shapes are \textbf{scissors congruent} if you can chop/cut one shape into pieces and rearrange those pieces along their boundaries to form the other shape. \\
+
+Scissors congruent and cut and paste equivalent are equivalent.
 \end{definition}
+
+\textit{Note:} area is invariant under this cut and paste operation on polygons; however, this does not generalize to 3D shapes and volume.
+
+\begin{definition}[Manifold]
+A \textbf{$n$-dimension manifold} is a space that locally resembles $\mathbb{R}^n$. (1D: circle, 2D: sphere, torus) \\
+
+A \textbf{$n$-dimension manifold with boundary} is a space that resembles
+\begin{itemize}
+    \item $\mathbb{R}^n$ on each neighborhood of all its interior points
+    \item $\mathbb{R}^+ \times \mathbb{R}^{n-1}$ on each neighborhood of points on the boundary.
+\end{itemize}
+\end{definition}
+
+\begin{definition}[Homeomorphism]
+Two spaces are \textbf{homeomorphic} if one can be distorted to make the other.
+\end{definition}
+
+Topology uses algebraic invariants (e.g. the Euler characteristic) to analyze properties of manifolds and answer classification problems.
+
+\begin{definition}[Cobordism]
+Two $n$-dimensional manifolds $M$ and $M'$ are \textbf{cobordant} if there exists an $(n+1)$ dimensional manifold $W$ such that $M$ and $M'$ form the boundary of $W$. \\
+
+Cobordism forms an equivalence relation on manifolds.
+\end{definition}
+
+\begin{definition}[TQFT]
+A $n$-dimensional \textbf{topological quantum field theory} (TQFT) is a functor that assigns
+\begin{itemize}
+    \item a finite dimension vector space to each $(n-1)$ dimensional manifold
+    \item a linear map to a bordism between them
+\end{itemize}
+\end{definition}
+
+\newpage
+
+\subsection{Circle Packings from Tilings of the Plane}
+
+\textit{}
+
+\vspace{0.25cm}
+
+\textit{Presented by David Yang (me).} \\
+
+Feel free to check out my presentation \href{https://github.com/dyang5/CirclePackingsResearch/blob/main/presentations/YMC_Presentation.pdf}{here}, or read about my conference experience \href{https://github.com/dyang5/CirclePackingsResearch/blob/main/Conferences/writeups/YMC_Writeup.md}{here}! I am happy to answer any questions about my project :)
+
+\vspace{2cm}
+
+\subsection{Dehn Invariant Zero Tetrahedra} 
+
+\textit{}
+
+\vspace{0.25cm}
+
+\textit{Presented by Anas Chentouf.}
+
+To answer the question of when two polyhedra are scissors congruent, one can use the Dehn Invariant.
+\begin{definition}[Dehn Invariant]
+The \textbf{Dehn Invariant} is a value used to determine whether one polyhedron can be cut into pieces and reassembled into another, and whether a polyhedron or its dissections can tile space.
+\end{definition}
+
+\begin{theorem*}[Scissors Congruence and Dehn Invariant]
+If two polyhedra are scissors congruent, their Dehn Invariant are equal. \\
+
+If two polyhedra have the same volume and the same Dehn invariant, they are scissors congruent.
+\end{theorem*}
+
+\begin{theorem*}[Debrunner, 1980]
+If a tetrahedron tiles space, it has Dehn invariant $0$ (the converse does not hold).
+\end{theorem*}
+
+Thus, instead of studying tiling tetrahedra (since the only way to prove a tetrahedron tiles is to exhibit an explicit tiling), one can classify Dehn Invariant Tetrahedra.
+
+\begin{result*}
+From the speaker's YMC abstract:
+``We contribute previously unknown families of tetrahedra of Dehn
+invariant zero (DI0), as well as some sporadic tetrahedra. We also show that there are finitely
+many Dehn invariant zero tetrahedra whose dihedral angles have a five-dimensional span over
+$\mathbb{Q}$, a first step towards classifying all Dehn invariant zero tetrahedra. We also exhibit a Dehn
+invariant zero tetrahedron that does not tile, thereby answering a previously open question."
+\end{result*}
+
+\newpage
+
+\subsection{Distance Graph Embeddings over Finite Fields} 
+
+\textit{}
+
+\vspace{0.25cm}
+
+\textit{Presented by Xinyu Fang and Maxwell Sun.}
+
+\begin{definition}
+Let $q$ be an odd prime power. For $x, y \in \mathbb{F}_q^d$, define \[ || x-y|| = \sum\limits_{i=1}^d (x_i - y_i)^2.\]
+
+For $E \subseteq \mathbb{F}_q^d$, let $\Delta(E) = \{ || x-y||: \, x, y \in E\}.$
+\end{definition}
+
+The \textbf{Erdos distance problem} asks how small can $|\Delta(E)|$ be as $E$ gets bigger.
+
+\begin{result*}The speakers discuss their results for various distance problems, on embedding new families of distance graphs which are formed from certain basic
+configurations: ``These include the k-fold Holder extension of 3-chains and chains of equilateral
+triangles, which have not been studied previously. Our results in these cases make significant
+improvements on the bounds given by the general case by exploiting symmetries within the
+graphs and sophisticated inductive arguments. Moreover, in order to lower bound nondegenerate embeddings, we make clever counting arguments of degeneracies that use the geometry
+of finite field vector spaces."
+\end{result*}
 \end{document}

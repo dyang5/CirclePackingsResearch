@@ -1,12 +1,13 @@
 \documentclass[12pt]{amsart}
 \usepackage[symbol]{footmisc}
 \usepackage{float}
-
+\usepackage{mathtools}
 \usepackage{style_template}
 \renewcommand*{\thefootnote}{\fnsymbol{footnote}}
 
 % \newtheorem{theorem}{Theorem}
 % \newtheorem{definition}{Definition}
+\setlength\parindent{0pt}
 
 \title{Young Mathematicians Conference Notes}
 \author{David Yang}
@@ -262,7 +263,134 @@ The final example of conformal mappings was in the study of the time evolution o
 
 \newpage
 
+\subsection{A Structure Theorem on Doubling Measures as Arbitrary Bases}
+
+\textit{}
+
+\vspace{0.25cm}
+\textit{Presented by Zoe Markman and Teresa Pollard.} \\
+
+\begin{definition}[Doubling Measure]
+A \textbf{doubling measure} is a measure $\mu$ satisfying \[ \frac{1}{C} \leq \frac{\mu(I)}{\mu{J}} \leq C \]
+where $I$ and $J$ are adjacent intervals of the same length.
+\end{definition}
+
+\begin{definition}[p-adic]
+A \textbf{p-adic interval} is $[\frac{k}{p^n}, \frac{k+1}{p^n}]$ forany $k, n \in \mathbb{Z}$ and some prime $p$. \\
+
+A \textbf{p-adic doubling measure} satisfies the above property of a doubling measure where $I, J$ are any two children of a given p-adic interval.
+\end{definition}
+
+\begin{result*}
+The speakers proved some structure theorems of these doubling measures as part of their research project: \\
+
+``A 2022 paper by Anderson and Hu constructs a measure which is $p$ and $q$-adic doubling for distinct primes $p, q$ but not
+doubling overall. The construction of this measure relies heavily on an established number
+theory framework, which allows for the selection of an infinite family of $q$-adic intervals ``close
+enough" to $p$-adic intervals such that the Lebesgue measure can be reweighted on these $q$-adic
+intervals in a way that preserves $p$ and $q$-adic doubling, while breaking doubling overall. We
+generalize the number theory involved in this construction to create a measure that is $n$-adic
+doubling and $m_1, \dots, m_k$-adic doubling for any $n \in \mathbb{N} > 1$, such that each mi
+is a multiple of some $c$ coprime to $n$. We then provide a further generalization of the analysis used by Anderson
+and Hu to construct a measure that is $n$-adic doubling for every $n \in \mathbb{N} > 1$ but not doubling
+overall."
+\end{result*}
+
+\newpage
+
+\subsection{Binomial Sets under $\mathbb{Z}$-Linear Forms}
+
+\textit{(Presentation Title: Phase Transitions and Point Process Limits for Generalized Sumsets of Binomial Random Sets)}
+
+\textit{}
+
+\vspace{0.25cm}
+\textit{Presented by Ryan Jeong.}
+
+\begin{definition}[MSTD]
+Consider a set $A \subseteq \{0, 1, \dots, N\}.$ \\
+
+The \textbf{sum and difference sets} are \[ A + A \coloneqq \{a_1 + a_2: a_1, a_2 \in A \} \text { and } A - A \coloneqq \{a_1 - a_2 : a_1, a_2 \in A \}.\] 
+
+A set is \textbf{MSTD} (More Sum Than Differences Set) if $|A+A| > |A-A|.$
+\end{definition}
+
+\begin{result*}
+    The speaker works on generalized sumsets (of $s$ sums and $d$ differences), proving some results for these sumsets. A key component of their approach is Stein's Method, which they also explain.
+\end{result*}
+
+\vspace{2.5cm}
+
+\subsection{Generalizations of the Erdos-Ginzburg-Ziv Theorem via Topology}
+
+\textit{}
+
+\vspace{0.25cm}
+\textit{Presented by Jacob Lehmann Duke, Hannah Park-Kaufmann, and Meenakshi McNamara.}
+
+\begin{theorem*}[Erdos-Ginzburg-Ziv]
+Any sequence of $2n - 1$ numbers in $\mathbb{Z}/n$ has a subsequence of length $n$ that sums to zero
+\end{theorem*}
+
+\begin{result*}
+    We develop a novel topological approach, based on the non-existence of continuous maps that commute with certain
+    symmetries, to prove that the permutations whose difference gives the zero-sum subsequence
+    may be strongly restricted. \\
+
+    They prove these results using a number of different topological approaches, including chessboard complexes, probability measures, and more.
+\end{result*}
+
+\newpage
+
+\subsection{On the Size and Complexity of Scrambles}
+
+\textit{}
+
+\vspace{0.25cm}
+\textit{Presented by Steven DiSilvio and Krish Singal.}
+
+\begin{definition}[Chip-Firing Graph]
+Let $G$ be a connected, loopless multigraph with vertices $V = \{1, 2, \dots, n\}.$ \\
+
+A \textbf{chip-firing game} is played on such a graph by placing an integer number of chips on each node of the graph, and then moving them around according to chip-firing moves, where one node donates chips to its neighbors, one along each edge. 
+(If a vertex has a negative value, it means they are ``in debt'').\end{definition}
+
+\begin{definition}[Relevant Definitions]
+The \textbf{gonality} of a graph $G$ $\mathrm{gon}(G)$ is the smallest $k$ such that there exists a placement of $k$ chips on $G$ guaranteed to eliminate a $-1$ debt placed anywhere on $V(G)$ without introducing debt elsewhere. \\
+
+A \textbf{scramble} $S$ is a collection of connected subgraphs of $G$ (called eggs). The \textbf{hitting number} is the minimum number of vertices needed to hit each egg in a scramble.
+\end{definition}
 
 
+\begin{result*}
+To study these chip-firing games, the speakers study the scramble numbers of graphs, which help give lower bounds for gonality as per Harp et. al. (2022), which states that \[ \mathrm{Sc}(G) \leq \mathrm{gon}(G)\] for all graphs G.
+\end{result*}
 
+\vspace{2.5cm}
+
+\subsection{Stiffness matrices and d-dimensional algebraic connectivity}
+
+\textit{}
+
+\vspace{0.25cm}
+\textit{Presented by Yunseong Jung.} \\
+
+I was not able to take notes for this presentation -- see YMC abstract page for more information.
+
+\newpage
+
+\section{Day 3: August 17th}
+
+\subsection{Toplogy Meets Physics: Scissors Congruences and TQFT}
+
+\textit{Plenary Lecture.}
+\vspace{0.25cm}
+
+\textit{Presented by Professor Carmen Rovi (Loyola University).} \\
+
+The talk relates Topology (Manifolds/Scissor Congruences) with Physics (TQFT). \\
+
+\begin{definition}[Scissors Congruence]
+Two shapes are \textbf{scissors congruent} if you can chop/cut one shape into pieces and rearrange those pieces along their boundaries to form the other shape.
+\end{definition}
 \end{document}
